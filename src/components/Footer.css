@@ -1,0 +1,20 @@
+footer {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 1rem; /* Padding inside the footer */
+    text-align: center; /* Center the text */
+  }
+  
+  footer nav {
+    display: flex; /* Flex container */
+    justify-content: space-between; /* Space between nav items */
+    margin-bottom: 1rem; /* Margin at the bottom */
+  }
+  
+  footer button {
+    background-color: #90EE90; /* Light green background */
+    border: none; /* No border */
+    padding: 0.5rem; /* Padding inside the button */
+    border-radius: 50%; /* Rounded button */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  

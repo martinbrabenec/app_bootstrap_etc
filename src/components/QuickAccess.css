@@ -1,0 +1,41 @@
+.quick-access-container {
+  width: 100%; /* Full width */
+  overflow-x: scroll; /* Horizontal scroll */
+  padding: 1rem 0; /* Vertical padding */
+  margin-bottom: 20px; /* Margin at the bottom */
+  display: flex; /* Flex container */
+}
+
+.quick-access {
+  display: flex; /* Flex container */
+  width: max-content; /* Width based on content */
+  animation: scroll 40s linear infinite; /* Scroll animation */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0); /* Start at 0 */
+  }
+  100% {
+    transform: translateX(-100%); /* End at -100% */
+  }
+}
+
+.quick-item {
+  flex: 0 0 25%; /* Fixed width */
+  padding: 0 5px; /* Padding */
+  box-sizing: border-box; /* Include padding in size */
+}
+
+.quick-item img {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  aspect-ratio: 1 / 1; /* Square aspect ratio */
+  object-fit: cover; /* Cover the container */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Pause animation on hover */
+.quick-access-container:hover .quick-access {
+  animation-play-state: paused;
+}

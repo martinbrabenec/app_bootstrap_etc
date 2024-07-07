@@ -1,0 +1,35 @@
+.health-tracker {
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+    gap: 1rem; /* Space between children */
+    padding: 1rem; /* Padding inside the tracker */
+    margin-bottom: 20px; /* Margin at the bottom */
+  }
+  
+  /* Common styles for food and activity trackers */
+  .tracker {
+    display: flex;
+    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Align items in the center */
+    padding: 0.5rem; /* Padding inside the tracker */
+    border-radius: 25px; /* Rounded corners */
+  }
+  
+  /* Specific color for food tracker */
+  .food {
+    background-color: #90EE90; /* Light green background */
+  }
+  
+  /* Specific color for activity tracker */
+  .activities {
+    background-color: #98FB98; /* Slightly different light green background */
+  }
+  
+  /* Styles for "I'm feeling crazy" button */
+  .feeling-crazy {
+    background-color: #8FBC8F; /* Darker green background */
+    text-align: center; /* Center text */
+    padding: 0.5rem; /* Padding inside the button */
+    border-radius: 25px; /* Rounded corners */
+  }
+  

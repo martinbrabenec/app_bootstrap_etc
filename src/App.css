@@ -1,0 +1,13 @@
+/* Main app container styles */
+.app {
+  max-width: 400px; /* Maximum width of the app container */
+  margin: 0 auto; /* Center the app container horizontally */
+  font-family: Arial, sans-serif; /* Set the font family */
+  padding: 20px; /* Add padding inside the app container */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Add a subtle shadow for better visibility */
+}
+
+/* Additional styles for better layout */
+main {
+  margin-bottom: 20px; /* Add margin at the bottom of the main content area */
+}
